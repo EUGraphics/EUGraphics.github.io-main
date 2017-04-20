@@ -1,10 +1,10 @@
 @font-face {
   font-family: harabara;
-  src: url('/assets/fonts/harabara.otf')
+  src: url('/assets/fonts/Harabara.otf');
 }
 @font-face {
   font-family: basictitle;
-  src: url('/assets/fonts/basictitle.ttf')
+  src: url('/assets/fonts/basictitle.ttf');
 }
 
 @font-face {
@@ -70,5 +70,5 @@
 @font-face {
   font-family: avenir;
   font-weight: 700;
-  src:url('/assets/fonts/Avenir/Avenir-Bold.otf');
+  src:url('/assets/fonts/Avenir/Avenir-bold.otf');
 }
