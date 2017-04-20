@@ -1,0 +1,74 @@
+@font-face {
+  font-family: harabara;
+  src: url('/assets/fonts/harabara.otf')
+}
+@font-face {
+  font-family: basictitle;
+  src: url('/assets/fonts/basictitle.ttf')
+}
+
+@font-face {
+  font-family: lato;
+  font-weight: normal;
+  src:url('/assets/fonts/Lato/Lato-Regular.ttf');
+}
+@font-face {
+  font-family: lato;
+  font-weight: bold;
+  src:url('/assets/fonts/Lato/Lato-Semibold.ttf');
+}
+
+@font-face {
+  font-family: lato;
+  font-weight: bolder;
+  src:url('/assets/fonts/Lato/Lato-Bold.ttf');
+}
+
+@font-face {
+  font-family: montserrat;
+  font-weight: 400;
+  src:url('/assets/fonts/Montserrat/Montserrat-Regular.otf');
+}
+
+@font-face {
+  font-family: montserrat;
+  font-weight: 100;
+  src:url('/assets/fonts/Montserrat/Montserrat-Thin.otf');
+}
+
+@font-face {
+  font-family: montserrat;
+  font-weight: 700;
+  src:url('/assets/fonts/Montserrat/Montserrat-Bold.otf');
+}
+
+@font-face {
+  font-family: montserrat;
+  font-weight: 800;
+  src:url('/assets/fonts/Montserrat/Montserrat-ExtraBold.otf');
+}
+
+@font-face {
+  font-family: montserrat;
+  font-weight: 200;
+  src:url('/assets/fonts/Montserrat/Montserrat-ExtraLight.otf');
+}
+
+@font-face {
+  font-family: montserrat;
+  font-weight: 500;
+  src:url('/assets/fonts/Montserrat/Montserrat-Medium.otf');
+}
+
+
+@font-face {
+  font-family: avenir;
+  font-weight: 500;
+  src:url('/assets/fonts/Avenir/Avenir-Regular.otf');
+}
+
+@font-face {
+  font-family: avenir;
+  font-weight: 700;
+  src:url('/assets/fonts/Avenir/Avenir-Bold.otf');
+}
