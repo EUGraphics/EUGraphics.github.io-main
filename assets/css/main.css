@@ -455,7 +455,7 @@ body {
 }
 
 .quotepic-container {
-  transform: translateY(50%);
+  transform: translateY(25%);
   position: relative;
   float: right;
   text-align: center;
