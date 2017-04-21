@@ -10,6 +10,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+br {
+  content: "";
+  display: block;
+  margin: 40px 0;
+}
+
 .header-menu-btn {
   position: fixed;
   z-index: 952;
@@ -614,4 +620,75 @@ blockquote h3:after {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
+}
+
+.about-container {
+  position: absolute;
+  display: block;
+  float: left;
+  left: 5em;
+  text-align: left;
+}
+
+.about-text-container {
+  display: block;
+  width: 35%;
+  text-overflow: clip;
+}
+
+#about-text {
+  line-height: 200%;
+  font-family: montserrat;
+  font-size: 16px;
+  letter-spacing: .15vw;
+}
+
+#whoareeug {
+  position: absolute;
+  bottom: 0;
+  left: 4vw;
+  z-index: 102;
+}
+
+#whoarewe {
+  position: inherit;
+  z-index: 99;
+  font-family: avenir;
+  font-weight: 700;
+  font-size: 400%;
+  letter-spacing: .75vw;
+  text-indent: .75vw;
+  color: rgb(205,205,205);
+}
+
+.header-container {
+  width: 40%;
+  position: relative;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-button {
+  position: relative;
+  text-align: center;
+  top: 25vh;
+}
+
+.portfolio-btn {
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 16px;
+  top: 0;
+  bottom: 0;
+  color: #000;
+  border: 2px solid #000;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+.portfolio-btn:hover,
+.portfolio-btn:active {
+  background-color: #cacaca;
+  color: #000;
 }
