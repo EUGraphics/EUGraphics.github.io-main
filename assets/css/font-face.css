@@ -1,53 +1,29 @@
 @font-face {
   font-family: harabara;
-  src: url('/assets/fonts/Harabara.otf');
+  src: url('main-website/assets/fonts/Harabara.otf');
 }
 @font-face {
   font-family: basictitle;
-  src: url('/assets/fonts/basictitle.ttf');
+  src: url('main-website/assets/fonts/basictitle.ttf');
 }
 
 @font-face {
   font-family: lato;
   font-weight: normal;
-  src:url('/assets/fonts/Lato/Lato-Regular.ttf');
+  src:url('main-website/assets/fonts/Lato/Lato-Regular.ttf');
 }
 
 @font-face {
   font-family: lato;
   font-weight: bolder;
-  src:url('/assets/fonts/Lato/Lato-Bold.ttf');
+  src:url('main-website/assets/fonts/Lato/Lato-Bold.ttf');
 }
-
-@font-face {
-  font-family: montserrat;
-  font-weight: 400;
-  src:url('/assets/fonts/Montserrat/Montserrat-Regular.otf');
-}
-
-
-@font-face {
-  font-family: montserrat;
-  font-weight: 800;
-  src:url('/assets/fonts/Montserrat/Montserrat-ExtraBold.otf');
-}
-
-@font-face {
-  font-family: montserrat;
-  font-weight: 200;
-  src:url('/assets/fonts/Montserrat/Montserrat-ExtraLight.otf');
-}
-
-@font-face {
-  font-family: montserrat;
-  font-weight: 500;
-  src:url('/assets/fonts/Montserrat/Montserrat-Medium.otf');
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,500,800');
 
 @font-face {
   font-family: avenir;
   font-weight: 700;
-  src:url('/assets/fonts/Avenir/Avenir-bold.otf');
+  src:url('main-website/assets/fonts/Avenir/Avenir-bold.otf');
 }
 
 @import url('https://fonts.googleapis.com/css?family=PT+Serif');
