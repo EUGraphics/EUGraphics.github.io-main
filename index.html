@@ -4,20 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../assets/css/font-face.css">
-  <link rel="stylesheet" href="../assets/css/main.css">
-  <link rel="stylesheet" href="../assets/css/onepage-scroll.css">
-  <link rel="stylesheet" href="../assets/css/hamburgers.css">
+  <link rel="stylesheet" href="../../assets/css/font-face.css">
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <link rel="stylesheet" href="../../assets/css/onepage-scroll.css">
+  <link rel="stylesheet" href="../../assets/css/hamburgers.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="../assets/js/hamburger-btn.min.js"></script>
-  <script src="../assets/js/jquery.onepage-scroll.js"></script>
-  <script src="../assets/js/enable-scroll.js"></script>
-  <script src="../assets/js/main.js"></script>
+  <script src="../../assets/js/hamburger-btn.min.js"></script>
+  <script src="../../assets/js/jquery.onepage-scroll.js"></script>
+  <script src="../../assets/js/enable-scroll.js"></script>
+  <script src="../../assets/js/main.js"></script>
   <title>EUROGRAPHICS - EUROPEAN DESIGNERS IN ONE PLACE</title>
 </head>
 <body style="background-color: rgb(227,227,227);">
   <div id="main">
-    <page>
+    <page class="landing-page">
       <div class="header-menu-btn">
         <button id="menu-btn" class="hamburger" type="button">
           <span class="hamburger-box">
@@ -106,35 +106,235 @@
       </div>
     </page>
     <page id="team-pg">
-      <div class="profiles">
-        <div class="profile">
-          <img class="profile-img"  src="http://placehold.it/150x150" alt="">
-          <span id="description-container">
-            <h3 id="name"><b>NAME LASTNAME</b></h3>
-            <p id="desc"><i>Some Description</i></p>
+      <div class="tpgh-header-container">
+        <div class="tpgh-container">
+          <span id="eugbg">EUROPEAN</span>
+          <span id="theteam">MEET THE TEAM</span>
+          <span class="ap-title" id="team-title-line">&nbsp;
           </span>
         </div>
-        <div class="profile">
-          <img class="profile-img" src="http://placehold.it/150x150" alt="">
-          <span id="description-container">
-            <h3 id="name"><b>NAME LASTNAME</b></h3>
-            <p id="desc"><i>Some Description</i></p>
-          </span>
-        </div>
-        <div class="profile">
-          <img class="profile-img"  src="http://placehold.it/150x150" alt="">
-          <span id="description-container">
-            <h3 id="name"><b>NAME LASTNAME</b></h3>
-            <p id="desc"><i>Some Description</i></p>
-          </span>
+        <div class="close-btn" id="cbtn">
         </div>
       </div>
-      <div class="portfolio-button">
+      <div class="slide-ctrl">
+        <span id="slide-l"></span>
+        <span id="slide-r"></span>
+      </div>
+      <div class="all-pf-wrapper">
+        <div class="pf-wrapper main-pf-">
+          <div class="profile-container" id="member">
+            <div class="ppic-container">
+              <div class="gradient">
+                <img src="assets/img/profiles/flcky.png" alt="" id="ppic">
+              </div>
+            </div>
+            <div class="info-container">
+              <div class="bgimg-container">
+                <img src="assets/img/profiles/logobg.png" id="logobg">
+              </div>
+              <h1 id="pf-name" class="profile-name"><span id="small-name">Peter</span> 'fLckyDEV' <span id="small-name">Bækgaard</span></h1>
+              <h2 id="skill-name">WEB DEVELOPER</h2>
+              <p id="profile-quote"><span id="profile-qq">"</span><br id="br-first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, nemo.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, rerum!<br id="br-last"><span id="profile-qq-last">"</span></p>
+              <div class="pf-btn">
+                <span id="pf-btn">
+                  <a href="/members/flckydev">VIEW PORTFOLIO</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="profile-container always-active" id="member">
+            <div class="ppic-container">
+              <div class="gradient">
+                <img src="assets/img/profiles/flcky.png" alt="" id="ppic">
+              </div>
+            </div>
+            <div class="info-container">
+              <div class="bgimg-container">
+                <img src="assets/img/profiles/logobg.png" id="logobg">
+              </div>
+              <h1 id="pf-name" class="profile-name"><span id="small-name">Peter</span> 'fLckyDEV' <span id="small-name">Bækgaard</span></h1>
+              <h2 id="skill-name">WEB DEVELOPER</h2>
+              <p id="profile-quote"><span id="profile-qq">"</span><br id="br-first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, nemo.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, rerum!<br id="br-last"><span id="profile-qq-last">"</span></p>
+              <div class="pf-btn">
+                <span id="pf-btn">
+                  <a href="/members/flckydev">VIEW PORTFOLIO</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="mid-pf-container">
+            <div class="profile-container always-active" id="member">
+            <div class="ppic-container">
+              <div class="gradient">
+                <img src="assets/img/profiles/cabiz.png" alt="" id="ppic">
+              </div>
+            </div>
+            <div class="info-container">
+              <div class="bgimg-container">
+                <img src="assets/img/profiles/logobg.png" id="logobg">
+              </div>
+              <h1 id="pf-name" class="profile-name"><span id="small-name">Frederik</span> 'CABIZFX' <span id="small-name">Hansen</span></h1>
+              <h2 id="skill-name">MOTION GRAPHICS</h2>
+              <p id="profile-quote"><span id="profile-qq">"</span><br id="br-first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, nemo.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, rerum!<br id="br-last"><span id="profile-qq-last">"</span></p>
+              <div class="pf-btn">
+                <span id="pf-btn">
+                  <a href="/members/cabizfx">VIEW PORTFOLIO</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="profile-container always-active" id="member">
+            <div class="ppic-container">
+              <div class="gradient">
+                <img src="assets/img/profiles/meller.png" alt="" id="ppic" class="meller">
+              </div>
+            </div>
+            <div class="info-container">
+              <div class="bgimg-container">
+                <img src="assets/img/profiles/logobg.png" id="logobg">
+              </div>
+              <h1 id="pf-name" class="profile-name"><span id="small-name">Nicolas</span> 'MELLER' <span id="small-name">Meller</span></h1>
+              <h2 id="skill-name">GRAPHICS DESIGN</h2>
+              <p id="profile-quote"><span id="profile-qq">"</span><br id="br-first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, nemo.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, rerum!<br id="br-last"><span id="profile-qq-last">"</span></p>
+              <div class="pf-btn">
+                <span id="pf-btn">
+                  <a href="/members/meller">VIEW PORTFOLIO</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="profile-container" id="member">
+            <div class="ppic-container">
+              <div class="gradient">
+                <img src="assets/img/profiles/flcky.png" alt="" id="ppic">
+              </div>
+            </div>
+            <div class="info-container">
+              <div class="bgimg-container">
+                <img src="assets/img/profiles/logobg.png" id="logobg">
+              </div>
+              <h1 id="pf-name" class="profile-name"><span id="small-name">Peter</span> 'fLckyDEV' <span id="small-name">Bækgaard</span></h1>
+              <h2 id="skill-name">WEB DEVELOPER</h2>
+              <p id="profile-quote"><span id="profile-qq">"</span><br id="br-first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, nemo.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, rerum!<br id="br-last"><span id="profile-qq-last">"</span></p>
+              <div class="pf-btn">
+                <span id="pf-btn">
+                  <a href="/members/flckydev">VIEW PORTFOLIO</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pf-wrapper pf-s2">
+          <div class="profile-container" id="member">
+            <div class="ppic-container">
+              <div class="gradient">
+                <img src="assets/img/profiles/flcky.png" alt="" id="ppic">
+              </div>
+            </div>
+            <div class="info-container">
+              <div class="bgimg-container">
+                <img src="assets/img/profiles/logobg.png" id="logobg">
+              </div>
+              <h1 id="pf-name" class="profile-name"><span id="small-name">Peter</span> 'fLckyDEV' <span id="small-name">Bækgaard</span></h1>
+              <h2 id="skill-name">WEB DEVELOPER</h2>
+              <p id="profile-quote"><span id="profile-qq">"</span><br id="br-first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, nemo.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, rerum!<br id="br-last"><span id="profile-qq-last">"</span></p>
+              <div class="pf-btn">
+                <span id="pf-btn">
+                  <a href="/members/flckydev">VIEW PORTFOLIO</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="profile-container" id="member">
+            <div class="ppic-container">
+              <div class="gradient">
+                <img src="assets/img/profiles/flcky.png" alt="" id="ppic">
+              </div>
+            </div>
+            <div class="info-container">
+              <div class="bgimg-container">
+                <img src="assets/img/profiles/logobg.png" id="logobg">
+              </div>
+              <h1 id="pf-name" class="profile-name"><span id="small-name">Peter</span> 'fLckyDEV' <span id="small-name">Bækgaard</span></h1>
+              <h2 id="skill-name">WEB DEVELOPER</h2>
+              <p id="profile-quote"><span id="profile-qq">"</span><br id="br-first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, nemo.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, rerum!<br id="br-last"><span id="profile-qq-last">"</span></p>
+              <div class="pf-btn">
+                <span id="pf-btn">
+                  <a href="/members/flckydev">VIEW PORTFOLIO</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="mid-pf-container">
+            <div class="profile-container" id="member">
+            <div class="ppic-container">
+              <div class="gradient">
+                <img src="assets/img/profiles/cabiz.png" alt="" id="ppic">
+              </div>
+            </div>
+            <div class="info-container">
+              <div class="bgimg-container">
+                <img src="assets/img/profiles/logobg.png" id="logobg">
+              </div>
+              <h1 id="pf-name" class="profile-name"><span id="small-name">Frederik</span> 'CABIZFX' <span id="small-name">Hansen</span></h1>
+              <h2 id="skill-name">MOTION GRAPHICS</h2>
+              <p id="profile-quote"><span id="profile-qq">"</span><br id="br-first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, nemo.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, rerum!<br id="br-last"><span id="profile-qq-last">"</span></p>
+              <div class="pf-btn">
+                <span id="pf-btn">
+                  <a href="/members/cabizfx">VIEW PORTFOLIO</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="profile-container" id="member">
+            <div class="ppic-container">
+              <div class="gradient">
+                <img src="assets/img/profiles/meller.png" alt="" id="ppic" class="meller">
+              </div>
+            </div>
+            <div class="info-container">
+              <div class="bgimg-container">
+                <img src="assets/img/profiles/logobg.png" id="logobg">
+              </div>
+              <h1 id="pf-name" class="profile-name"><span id="small-name">Nicolas</span> 'MELLER' <span id="small-name">Meller</span></h1>
+              <h2 id="skill-name">GRAPHICS DESIGN</h2>
+              <p id="profile-quote"><span id="profile-qq">"</span><br id="br-first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, nemo.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, rerum!<br id="br-last"><span id="profile-qq-last">"</span></p>
+              <div class="pf-btn">
+                <span id="pf-btn">
+                  <a href="/members/meller">VIEW PORTFOLIO</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="profile-container" id="member">
+            <div class="ppic-container">
+              <div class="gradient">
+                <img src="assets/img/profiles/flcky.png" alt="" id="ppic">
+              </div>
+            </div>
+            <div class="info-container">
+              <div class="bgimg-container">
+                <img src="assets/img/profiles/logobg.png" id="logobg">
+              </div>
+              <h1 id="pf-name" class="profile-name"><span id="small-name">Peter</span> 'fLckyDEV' <span id="small-name">Bækgaard</span></h1>
+              <h2 id="skill-name">WEB DEVELOPER</h2>
+              <p id="profile-quote"><span id="profile-qq">"</span><br id="br-first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, nemo.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, rerum!<br id="br-last"><span id="profile-qq-last">"</span></p>
+              <div class="pf-btn">
+                <span id="pf-btn">
+                  <a href="/members/flckydev">VIEW PORTFOLIO</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+      <div class="allmembers-button">
         <span>
-          <span class="landing-page-btn"><a class="portfolio-btn"><span id="pf-portfolio">ALL MEMBERS</span></a></span>
+          <span class="landing-page-btn am-btn"><a class="allmembers-btn"><span id="am-allmembers">ALL MEMBERS</span></a></span>
         </span>
       </div>
-
     </page>
     <page id="contact-pg">
       <h1>CONTACT PAGE</h1>

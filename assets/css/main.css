@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-br {
+.about-text-container br {
   content: "";
   display: block;
   margin: 40px 0;
@@ -151,7 +151,7 @@ br {
   position: relative;
   font-family: montserrat;
   font-size: 28px;
-  font-weight: 900;
+  font-weight: 800;
   letter-spacing: 3.5px;
   text-transform: uppercase;
   padding: 2.5px 10px;
@@ -433,7 +433,9 @@ br {
 }
 #ap-title-slogan {
   z-index: 2;
-  bottom: 9vh;
+  bottom: 9.5vh;
+  letter-spacing: 0.075vw;
+  text-indent: -0.075vw;
 }
 
 #ap-title-last {
@@ -453,11 +455,11 @@ br {
 }
 
 #ap-title-line {
-  width: 4%;
+  width: 6%;
   height: 2px;
   margin: 0px auto;
   border-bottom: 2px solid rgb(0,0,0);
-  bottom: 8.5vh;
+  bottom: 9vh;
 }
 
 .quotepic-container {
@@ -580,40 +582,6 @@ blockquote h3:after {
 
 
 
-.profile-img {
-  vertical-align: middle;
-  width: 128px;
-  height: 128px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  float:left;
-}
-
-.profile {
-  width: 400px;
-  overflow: hidden;
-  margin-left: 2%;
-  margin-bottom: 2%;
-
-}
-#description-container {
-  position: absolute;
-  padding-top: 0.5%;
-  padding-left: 1%;
-}
-#name {
-  font-family: montserrat;
-  font-weight: 400;
-  letter-spacing: 5px;
-}
-
-#desc {
-  font-family: montserrat;
-  font-weight: 300;
-}
-
 #about-pg {
   position: relative;
   display: block;
@@ -669,13 +637,15 @@ blockquote h3:after {
   padding: 0;
 }
 
-.portfolio-button {
-  position: relative;
+.allmembers-button {
+  position: absolute;
+  width: 100vw;
   text-align: center;
-  top: 25vh;
+  bottom: 10vh;
+  z-index: 999;
 }
 
-.portfolio-btn {
+.allmembers-btn {
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 16px;
@@ -687,8 +657,323 @@ blockquote h3:after {
   outline: none;
   text-decoration: none;
 }
-.portfolio-btn:hover,
-.portfolio-btn:active {
+.allmembers-btn:hover,
+.allmembers-btn:active {
   background-color: #cacaca;
   color: #000;
 }
+
+.pf-wrapper {
+  position: absolute;
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  top: 25vh;
+  width: 100vw;
+  height: 480px;
+  text-align: center;
+}
+
+
+.profile-container {
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 320px;
+  height: 480px;
+  background-color: #eee;
+  overflow: hidden;
+  opacity: 0;
+  transition: 1.5s all ease-in-out;
+}
+
+.mid-pf-container {
+  margin-bottom: 5em;
+  transition: 1s all ease-in-out;
+}
+
+.bgimg-container {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+#logobg {
+  width: 240px;
+}
+
+#member .ppic-container {
+  width: 100%;
+  background-color: #000;
+  z-index: 3;
+}
+
+.gradient {
+  position: relative;
+  display: block;
+}
+
+.gradient::before {
+  content: "";
+  position: absolute;
+  z-index: 4;
+  left: 0;
+  bottom: 0px;
+  right: 0;
+  height: 60%;
+  background: linear-gradient(to bottom, rgba(255,255,255,0),#3980be);
+}
+
+#ppic {
+  position: relative;
+  width: 60%;
+  z-index: 3;
+}
+
+.info-container {
+  position: relative;
+  z-index: 999;
+  top: -2em;
+  height: 320px;
+  width: 100%;
+  min-width: 100%;
+  background-color: #eee;
+  text-align: center;
+}
+
+#pf-name {
+  position: relative;
+  top: .5em;
+  padding: 0;
+  margin: 0;
+  font-family: 'PT Serif', serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+#small-name {
+  font-size: 12px;
+}
+
+.info-container h1 {
+  overflow: hidden;
+  text-align: center;
+}
+
+.info-container h1::before,
+.info-container h1::after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 2.5em;
+}
+
+.info-container h1::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.info-container h1::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+#skill-name {
+  font-family: 'montserrat';
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#profile-quote {
+  font-family: 'lato';
+  font-size: 12px;
+  letter-spacing: 3px;
+  padding-top: 6px;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+#profile-qq {
+  font-size: 32px;
+  font-family: 'times new roman';
+  font-style: italic;
+  float:left;
+}
+#profile-qq-last {
+  font-size: 32px;
+  font-family: 'times new roman';
+  font-style: italic;
+  float:right;
+}
+.pf-btn {
+  position: absolute;
+  padding: 0;
+  bottom: 2rem;
+  width: 100%;
+  height: 20px;
+}
+
+#pf-btn {
+  cursor: pointer;
+  font-family: 'montserrat';
+  border: 2px solid #000;
+  padding: 10px 15px;
+  color: #000;
+  transition: 0.2s all ease-in-out;
+}
+#pf-btn a {
+  text-decoration: none;
+  color: #000;
+}
+
+#pf-btn:hover,
+#pf-btn:active {
+  background-color: #ddd;
+}
+
+.tpgh-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding-top: 2em;
+  transition: 1s all ease-in-out;
+}
+
+
+
+#eugbg {
+  position: absolute;
+  z-index: 1;
+  font-family: avenir;
+  font-weight: 700;
+  font-size: 400%;
+  letter-spacing: .33vw;
+  color: rgb(195,195,195);
+
+}
+
+#theteam {
+  z-index: 3;
+  position: absolute;
+  font-family: 'lato';
+  font-weight: normal;
+  font-size: 26px;
+  letter-spacing: 0.33vw;
+  padding-top: 3.25vh;
+}
+
+#team-title-line {
+  width: 6%;
+  height: 2px;
+  margin: 0px auto;
+  border-bottom: 2px solid rgb(0,0,0);
+  bottom: -8vh;
+}
+
+.card-active {
+  opacity: 1;
+  margin-bottom: 10vh;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.always-active {
+  opacity: 1 !important;
+}
+
+.mc-active {
+  margin-bottom: 0vh;
+}
+
+.am-active {
+  opacity: 0;
+  cursor: default;
+  visibility: hidden;
+}
+
+.close-btn {
+  opacity: 0;
+  transition: 1s all ease-in-out;
+  cursor: default;
+  visibility: hidden;
+}
+.cbtn-active {
+  opacity: 1;
+  cursor: pointer;
+  visibility: visible;
+}
+
+.close-btn:after {
+  display: inline-block;
+  content: " \00d7";
+  position: absolute;
+  font-size: 38px;
+  right: 1vw;
+  top: -1vh;
+  opacity: 1;
+}
+
+.all-pf-wrapper {
+  position: relative;
+  display: block;
+  transition: 1s all ease-in-out;
+  z-index: 10;
+}
+
+
+.slide-ctrl {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 42.5vh;
+  width: 100%;
+  opacity: 0;
+  transition: 1s all ease-in-out;
+}
+#slide-r,
+#slide-l {
+  cursor: pointer;
+  position: relative;
+  z-index: 11;
+  margin: 0;
+  padding: 0;
+}
+
+#slide-r {
+  float: right;
+  padding-right: 3rem;
+}
+
+#slide-l {
+  float: left;
+  padding-left: 3rem;
+}
+
+#slide-r:after {
+  font-size: 72px;
+  font-weight: 200;
+  content:"\276d";
+  margin: 0;
+  padding: 0;
+}
+
+#slide-l:after {
+  font-size: 72px;
+  font-weight: 200;
+  content:"\276c";
+  margin: 0;
+  padding: 0;
+}
+
+
+.pf-s2 {
+  left: 100vw;
+};
+
+.sl-active {
+  opacity: 1 !important;
+};
