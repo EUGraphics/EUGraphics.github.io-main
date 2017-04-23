@@ -194,7 +194,7 @@ body {
   object-fit: none;
   height: 100%;
   width: 100%;
-  background-image: url('main-website/assets/img/landing-bg.jpg');
+  background-image: url('/main-website/assets/img/landing-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
