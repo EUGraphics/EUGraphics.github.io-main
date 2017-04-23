@@ -1,29 +1,29 @@
 @font-face {
   font-family: harabara;
-  src: url('main-website/assets/fonts/Harabara.otf');
+  src: url('assets/fonts/Harabara.otf');
 }
 @font-face {
   font-family: basictitle;
-  src: url('main-website/assets/fonts/basictitle.ttf');
+  src: url('assets/fonts/basictitle.ttf');
 }
 
 @font-face {
   font-family: lato;
   font-weight: normal;
-  src:url('main-website/assets/fonts/Lato/Lato-Regular.ttf');
+  src:url('assets/fonts/Lato/Lato-Regular.ttf');
 }
 
 @font-face {
   font-family: lato;
   font-weight: bolder;
-  src:url('main-website/assets/fonts/Lato/Lato-Bold.ttf');
+  src:url('assets/fonts/Lato/Lato-Bold.ttf');
 }
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,500,800');
 
 @font-face {
   font-family: avenir;
   font-weight: 700;
-  src:url('main-website/assets/fonts/Avenir/Avenir-bold.otf');
+  src:url('assets/fonts/Avenir/Avenir-bold.otf');
 }
 
 @import url('https://fonts.googleapis.com/css?family=PT+Serif');
