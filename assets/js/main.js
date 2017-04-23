@@ -51,11 +51,11 @@ $cbtn.on("click", function() {
   $srbtn.on("click", function() {
     $srval = $slval - 100;
     $pfr.css('transform', 'translateX('+$srval+'vw)');
-    $sval = slval;
+    $sval = $slval;
   });
   $slbtn.on("click", function() {
     $slval += ($slval === 0 ? 0 : -100)
     $pfr.css('transform', 'translateX('+$slval+'vw)');
-    $sval = srval;
+    $sval = $srval;
   });
 });
